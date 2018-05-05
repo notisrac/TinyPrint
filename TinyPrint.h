@@ -1,17 +1,17 @@
-/*
-https://github.com/arduino/Arduino/blob/master/hardware/arduino/avr/cores/arduino/Print.cpp
-https://github.com/arduino/Arduino/blob/master/hardware/arduino/avr/cores/arduino/Print.h
-*/
-
-// TODO make a library out of this!
-
 /***************************************************************************
-  This is a library for the SH1106 I2C OLED display
-  These displays use I2C to communicate, 2 pins are required to  interface
+  This is a slimmed down version of the original Print.h Arduino library.
+  The intent is to have a smaller prog mem a ram footprint. To achieve this
+  String and Printable were removed, along with the error methods.
 
-  Written by https://github.com/notisrac
+  Written by https://github.com/notisrac, 2018
   MIT license, all text above must be included in any redistribution
  ***************************************************************************/
+
+/*
+	Originals:
+	https://github.com/arduino/Arduino/blob/master/hardware/arduino/avr/cores/arduino/Print.cpp
+	https://github.com/arduino/Arduino/blob/master/hardware/arduino/avr/cores/arduino/Print.h
+*/
 
 
 #pragma once

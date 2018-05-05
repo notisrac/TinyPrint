@@ -1,9 +1,11 @@
-/*************************************************************************
-	This is a slimmed down version of the Arduino Print library
+/***************************************************************************
+  This is a slimmed down version of the original Print.h Arduino library.
+  The intent is to have a smaller prog mem a ram footprint. To achieve this
+  String and Printable were removed, along with the error methods.
 
-	Written by https://github.com/notisrac
-	MIT license, all text above must be included in any redistribution
-**************************************************************************/
+  Written by https://github.com/notisrac, 2018
+  MIT license, all text above must be included in any redistribution
+ ***************************************************************************/
 
 
 #include "TinyPrint.h"

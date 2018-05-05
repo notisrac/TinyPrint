@@ -1,0 +1,6 @@
+TinyPrint   KEYWORD1
+write   KEYWORD2
+print   KEYWORD2
+println   KEYWORD2
+printNumber   KEYWORD2
+printFloat   KEYWORD2
