@@ -124,6 +124,7 @@ _The full test code can be found in the Examples folder._
 | BareMinimum.ino   |      | 9         | 444        | This is the "BareMinimum" example sketch                                                     |
 | ArduinoPrintM.ino |      | 28(37)    | 806(1250)  | This is a test class implementing Print, with the test code                                  |
 | ArduinoPrintM.ino | FP   | 28(37)    | 2238(2682) | Test class implementing Print, with the test code, with the floating point operation enabled |
+
 _All values have the BareMinimum subtracted from them. Original values are in parenthesis._
 
 ### TinyPrint
@@ -137,6 +138,7 @@ _All values have the BareMinimum subtracted from them. Original values are in pa
 | Text + numbers + float                    | 14(23)    | 396(840)  |
 | Text + numbers + float + print lines      | 18(27)    | 492(936)  |
 | Everything enabled                        | 22(31)    | 572(1016) |
+
 _All values have the BareMinimum subtracted from them. Original values are in parenthesis._
 
 _Note: your milage may vary! (Ex.: Newer versions of the IDE have better optimization features. Also if you already have floating point operations in your code, enabling it here will not have as much effect. Etc.)_
